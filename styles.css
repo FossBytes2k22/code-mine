@@ -4,13 +4,23 @@ body {
     margin: 0;
 }
 
-nav,footer {
+nav {
     display: flex;
     flex-direction: row;
     background-color: black;
     color: #fff;
     padding:20px;
     justify-content: space-between;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: #fff;
+    padding:20px;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
 }
 nav li{
     list-style: none;
